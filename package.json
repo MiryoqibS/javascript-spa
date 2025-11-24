@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --port 8080 ./database.json"
   },
   "devDependencies": {
     "sass-embedded": "^1.93.2",
